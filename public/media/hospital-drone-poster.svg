@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#9b8e73"/><stop offset=".5" stop-color="#595449"/><stop offset="1" stop-color="#242421"/></linearGradient>
+    <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#ded4b5" stop-opacity=".68"/><stop offset="1" stop-color="#6a675d" stop-opacity=".25"/></linearGradient>
+    <linearGradient id="shade" x2="1"><stop stop-color="#11110f" stop-opacity=".6"/><stop offset=".58" stop-color="#11110f" stop-opacity=".15"/><stop offset="1" stop-color="#11110f" stop-opacity=".05"/></linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <circle cx="1440" cy="245" r="180" fill="#e4c75f" opacity=".24"/>
+  <path d="M0 740 260 620l180 88 260-205 260 160 290-272 255 206 220-135 195 99v519H0Z" fill="#37362f" opacity=".72"/>
+  <path d="M0 836 290 706l270 138 245-178 275 137 245-212 290 168 305-150v471H0Z" fill="#282824"/>
+  <g opacity=".8">
+    <path d="M1050 680h500v400h-500z" fill="url(#glass)"/>
+    <path d="M1010 658h580v36h-580z" fill="#d3c38f" opacity=".65"/>
+    <path d="M1115 716h16v364h-16zm110 0h16v364h-16zm110 0h16v364h-16zm110 0h16v364h-16z" fill="#272722" opacity=".75"/>
+    <path d="M1050 825h500v13h-500zm0 120h500v13h-500z" fill="#262620" opacity=".65"/>
+    <path d="M980 1080V737l70-57v400zm570-400 95 77v323h-95z" fill="#4b4940"/>
+  </g>
+  <path d="M0 0h1920v1080H0z" fill="url(#shade)"/>
+</svg>
