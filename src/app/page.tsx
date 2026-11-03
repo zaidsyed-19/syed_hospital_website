@@ -10,8 +10,7 @@ export default function Home() {
     <main>
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-media" aria-hidden="true">
-          <video className="hero-video" autoPlay muted loop playsInline poster="/media/hospital-drone-poster.svg">
-            <source src="/media/hospital-drone.webm" type="video/webm" />
+          <video className="hero-video" autoPlay muted loop playsInline preload="metadata" poster="/media/hospital-drone-poster.jpg">
             <source src="/media/hospital-drone.mp4" type="video/mp4" />
           </video>
           <div className="hero-shade" />

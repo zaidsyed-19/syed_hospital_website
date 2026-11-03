@@ -4,9 +4,9 @@ html{scroll-behavior:smooth}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',Arial,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
 .hero{position:relative;min-height:780px;height:min(920px,100svh);max-height:1050px;overflow:hidden;background:#262522;color:white;isolation:isolate}
-.hero-media,.hero-video,.hero-shade{position:absolute;inset:0;width:100%;height:100%}
+.hero-media,.hero-shade{position:absolute;inset:0;width:100%;height:100%}
 .hero-media{z-index:-3;background:#454238 url('/media/hospital-drone-poster.svg') center/cover no-repeat}
-.hero-video{object-fit:cover;z-index:-2;opacity:.78;filter:saturate(.7)}
+.hero-video{position:absolute;top:0;right:7%;height:100%;width:auto;max-width:54%;object-fit:contain;object-position:center;z-index:-2;opacity:.98;filter:saturate(.82) contrast(1.02)}
 .hero-shade{z-index:-1;background:linear-gradient(90deg,rgba(13,13,12,.78) 0%,rgba(20,20,19,.53) 42%,rgba(17,17,16,.10) 100%),linear-gradient(0deg,rgba(15,15,14,.55),transparent 30%,rgba(15,15,14,.2));}
 .topbar{height:104px;padding:0 7.1%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.17);position:relative;z-index:2}
 .brand{display:flex;align-items:center;gap:13px}.brand img{width:55px;height:55px;object-fit:contain;border-radius:50%;background:#fff}.brand-name{font-size:12px;font-weight:700;letter-spacing:.19em}.brand-name span{font-weight:400;letter-spacing:.11em;margin-left:5px}
